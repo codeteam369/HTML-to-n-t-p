@@ -1,0 +1,31 @@
+.future-layout {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 177, 177);
+    margin: 20px;
+}
+
+.future-item {
+    margin: 20px;
+    padding: 20px;
+    flex-basis: 30%;
+    display: flex;
+}
+
+.future-item:nth-child(1) {
+    background-color: green;
+}
+
+.future-item:nth-child(2) {
+    background-color: orange;
+}
+
+.future-item:nth-child(3) {
+    background-color:blue;
+}
+
+@media (max-width: 720px) {
+    .future-layout {
+        flex-direction: column;
+    }
+}

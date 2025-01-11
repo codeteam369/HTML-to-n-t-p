@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>bài 6 các mức độ ưu tiên trong css</Title>
+        <meta charser="utf-8">
+        <link rel="stylesheet" href="../2.css/bài 6.css">
+        <style> h1 {color:blueviolet}</style> <!--Intrnal, tag-->
+    </head>
+    <body>
+        <div>
+            <h1 id="lesson" style="color: red;" >Priority?</h1> <!--Inline-->
+            <ol>
+                <!-- số càng lớn độ ưu tiên càng cao -->
+
+                <li>Internal, External</li>
+                <!--Cách chỉnh trực tiếp từ file và gián tiếp từ file khác.
+                Hai cách này cái nào ra sau sẽ ưu tiên cách đó -->
+                <li>Inline - 1000</li>
+                <!-- chỉnh thẳng trên dòng -->
+                <li>#id - 1000</li>
+                <!-- gọi bằng định dạng duy nhất(id) -->
+                <li>.class - 10</li>
+                <!-- gọi bằng định dạng class -->
+                <li>tag - 1</li>
+                <!-- gọi bằng tag -->
+                <li>Equal specificity</li>
+                <!-- sự giống nhau trong cách gọi -->
+                <li>Universal selector and inherited - 0</li>
+                <!--Universal selector là tất cả thẻ sẽ ảnh hưởng chung
+                imherited sự kế thừa của thẻ con-->
+                <li>!important - 10000</li>
+                <!--Như cái tên, nó rất quan trọng nên sẽ được ưu tiên cao nhất -->
+            </ol>
+        </div>        
+    </body>
+</html>
+<!-- muốn xem phần tử đó ảnh hưởng bởi thứ gì thì ta click chuột phải vào nó và chọn 
+những thuộc tính không cạnh tranh lại sẽ bị gạch ngang inspect -->

@@ -1,0 +1,10 @@
+/* chọn thẻ liền kề  */
+h1+h2 {color: aqua;}
+/* ta thấy selector chỉ tác động lên thẻ đầu tiên dứng sát ngay sau thẻ h1 */
+
+/* chọn thẻ h2 đứng ngay sau class .after */
+.after+h2 {color: blueviolet;}
+
+/* chọn tất cả các thẻ p nằm sau h4 */
+h4 ~ p {color: orange;}
+/* selector sẽ tác động lên tất cả các phần tử nằm sau */

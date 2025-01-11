@@ -1,0 +1,13 @@
+/* Khi muốn một phần tử nào đó được bao quanh bởi phần tử khác thì tao dùng float */
+img {
+    float: left;
+    /* Tương tự với bên phải */
+    margin: 10px;
+}
+
+/* Nếu muốn vằn bản không bị "bám vào thuộc tính float" thì sử dụng clear */
+
+/* p {
+    clear: both;
+    Lệnh này cũng có trái phải
+} */

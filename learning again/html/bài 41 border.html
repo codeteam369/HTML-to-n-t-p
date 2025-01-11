@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 40 border (viền)</title>
+    <style>
+        .box_1 {
+            width: 200px;
+            height: 200px;
+            color: white;
+            background-color: blueviolet;
+            border: 10px solid orange;
+        }
+
+        .box_2 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            border: 10px solid;
+            border-color: red blue green yellow;
+        }
+
+        .box_3 {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            border: 10px blue;
+            border-style: dotted dashed double solid;
+        }
+        .box_4 {
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Thuộc tính border có 3 số đối cần phải lưu ý</h2>
+    <ul>
+        <li>weight: Độ dày</li>
+        <li>style: Kiểu</li>
+        <li>color: Màu sắc</li>
+    </ul>
+    <div class="box_1">BORDER</div>
+    
+    <h2>Và ta cũng có thẻ định dạng màu cho 4 hướng của hộp như sau</h2>
+    <div class="box_2">Color</div>
+
+    <h2>tương tựu với kiểu</h2>
+    <div class="box_3">style</div>
+
+    <h2>Cách bo góc border</h2>
+    <div class="box_2 box_4"></div>
+    <p>Tên của các góc trong html</p>
+    <ul>
+        <li>border-top-left: góc trên bên trái</li>
+        <li>border-top-right: góc trên bên phải</li>
+        <li>border-bottom-left: góc dưới bên trái</li>
+        <li>border-bottom-right: góc dưới bên phải</li>
+    </ul>
+    <p>hoặc ghi tắt theo chiều kim đồng hồ như bài padding</p>
+</body>
+</html>

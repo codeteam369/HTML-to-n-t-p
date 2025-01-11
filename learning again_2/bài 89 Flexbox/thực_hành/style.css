@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+
+.box {
+    background-color: orange;
+}

@@ -1,0 +1,27 @@
+.box {
+    background-color: blue;
+    /* Đặt chiều rộng của class box bằng 50% kích thước 
+    của thẻ cha (ở trong trường hợp này là thẻ body */
+    width: 50%;
+
+}
+
+/* Dẫn chứng về tỉ lệ % phụ thuộc vào thẻ cha */
+.box_child {
+    background-color: orange;
+    /* đặt box_child bằng 50% kích thước chiều dài của box */
+    width: 50%;
+}
+
+.parent {
+    color: aqua;
+    font-size: 60px;
+}
+
+.line1 {
+    font-size: 40%;
+}
+
+.line2 {
+    font-size: 40px;
+}

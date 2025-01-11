@@ -1,0 +1,10 @@
+/* áp dụng cho toàn bộ tranh html */
+* {
+    /* chọn phông chữ */
+    font-style:oblique ;
+}
+
+/* chọ h3 có class là demo */
+h3.demo {
+    color: blueviolet;
+}

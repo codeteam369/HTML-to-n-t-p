@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="absolute.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ABSOLUTE: Tuyệt đối</h2>
+    <h3>Có hai thứ cần chú ý khi sử dụng absolute</h3>
+    <ul>
+        <li>Khi sử dụng sẽ đẩy phần tử lên một layer trên</li>
+        <li>Khác với relative vị trí gốc khi sử dụng absolute cũng sẽ di chuyển theo phần tử</li>
+        <li>Giá trị sẽ căn cứ theo positive: relative của tổ tiên nếu không có thì sẽ lấy gốc trên bên trái của cửa sổ trình duyệt làm tâm</li>
+    </ul>
+    <div class="contain">
+        <div class="box box1">khối 1</div>
+        <div class="box box2">khối 2</div>
+        <div class="box box3">khối 3</div>
+    </div>
+    <h2>Vì ta đã đặt phần tử cha của box2 là position: relative</h2>
+    <h2>Nên box2 sẽ lâý gốc trên bên trái của khối contain làm tâm</h2>
+</body>
+</html>

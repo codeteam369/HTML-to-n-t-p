@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bài 10 thuộc tính border</title>
+        <style>
+            .box  {
+                width: 80px;
+                height: 80px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;                
+            }
+            .box1 {background-color: blue;}
+            .box2 {
+                background-color: gray;
+                /* độ dày của viền: */
+                border-width: 20px;
+                /* kiểu của viền */
+                border-style: solid;
+                /* muốn viền có màu ta ghi như sau: */
+                border-color: pink;
+            }
+            /* border có nghĩa là đường viền bên ngoài phần tử.
+            Khác với padding là nó không có kéo theo background nhưng vẫn tính vào phần tử */
+            /* 
+            Muốn viết tắt thì: border: 20px solid #333
+            đầu tiên là kích thước 4 hướng, kiểu, mã màu
+             */
+        </style>
+    </head>
+
+    <body>
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+    </body>
+</html>

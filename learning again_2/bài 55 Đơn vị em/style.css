@@ -1,0 +1,35 @@
+/* 1. Thẻ cha và con không có font size thì sẽ lấy theo 
+font-size gốc của html */
+/* Nếu thẻ có font-size thì  */
+.child {
+    background-color: violet;
+    width: 10em;
+    height: 2em;
+}
+/*2. Nếu thẻ cha có font-size thì thẻ con cũng sẽ được kế thừa
+xem lại bài tính kế thừa (inherited) */
+.parent {
+    font-size: 80px;
+}
+
+/*3. Nếu cả thẻ cha và thẻ con cùng có font-size thì htm sẽ lấy thẻ con */
+.child {font-size: 30px;}
+
+/* 4. Nếu thẻ cha đặt font-size ở đơn vị tương đối thì vẫn sẽ lấy kích thước thẻ cha */
+
+/* Bài tập tạo các hộp có kích thước là bội số của thẻ cha */
+.parent_new {
+    font-size: 10px;
+    display: inline-block;
+}
+.child_new {
+    font-size: 2em;
+    background-color: aqua;
+    height: 2em;
+    width: 2em;
+}
+
+div + h2 {
+    margin-top: 100px;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bài 36.css">
+    <title>bài 36 Child selectors</title>
+</head>
+<body>
+    <ul>
+        <li><h2>Sử dụng firt-child sẽ chọn thẻ con đầu tiên của phần tử</h2></li>
+        <div>
+            <p>Đoạn 1</p>
+            <p>Đoạn 2</p>
+            <p>Đoạn 3</p>
+        </div>
+        <p>
+            Lưu ý sẽ không nếu như thẻ con đầu tiên
+            không phải là thẻ con mà ta chọn thì sẽ không
+            thỏa điều kiện mà css đặt ra
+        </p>
+        <li><h2>Last-child thì sẽ chọn thẻ con cuối cùng</h2></li>
+        <li><h2>nth-child sẽ chọn thẻ con mà ta truyền thứ tự vào</h2></li>
+        <ol class="child">
+            <li>Đây là đoạn văn</li>
+            <li>Đây là đoạn văn</li>
+            <li>Đây là đoạn văn</li>
+            <li>Đây là đoạn văn</li>
+        </ol>
+        <p>
+            Lưu ý nếu như có phần tử con khác loại thẻ thì 
+            vẫn được css tính là một nth-child vì vậy khi chọn
+            nhớ đếm cả phần tử đó
+        </p>
+        <h4>Css cũng có thẻ chọn theo công thức như các ngôn ngữ lập trình:</h4>
+        <ol>
+            <li>Chọn số lẻ: nth-child(odd)</li>
+            <li>Chọn số lẻ: nth-child(even)</li>
+            <li>Chọn theo công thức(ví dụ): nth-child(n+5)</li>
+        </ol>
+        <li><h2>nth-last-child thì sẽ chọn từ dưới lên</h2></li>
+        <li><h2>only-child thì sẽ chọn thẻ con duy nhất có trong thẻ cha</h2></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* chọn tất cả các thẻ */
+/* * {color: blue;} */
+
+/* chọn theo tên thẻ */
+h2 {color: blue;}
+
+/* chọn theo id */
+#identify {color: blueviolet;}
+
+/* chọn theo class */
+.group {color: green;}
+
+/* bỏ dấu chấm ở đầu li */
+.list {
+    list-style: none;
+}

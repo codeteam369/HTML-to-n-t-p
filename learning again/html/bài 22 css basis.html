@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Muốn sử dụng file css a phải dùng liên kết như sau -->
+    <link rel="stylesheet" href="../css/bài 22.css">
+    <!-- Ví dụ về internal -->
+    <style>
+        h2 {color: green;}
+    </style>
+    <title>Bài 22 CSS basis</title>
+</head>
+<body>
+    <!-- 
+    Có 3 nơi có thể đặt CSS:
+    _Inline - Đặt trên hàng của thẻ
+    _Internal: Nội bộ - Đặt trong head
+    _External: Bên ngoài - Liên kết với file css
+    -->
+
+    <h2 style="color: blueviolet;">Inline</h2>
+    <p>
+        Ưu điểm là tối ưu việc nắm bắt thay đổi của css, nhanh chóng khi có ít sự thay đổi <br>
+        Nhược điểm: <br>
+        _code sẽ lộn xộn khi có nhiều thẻ hoặc phần tử cần thay đổi <br>
+        _Chỉ sửa được một cách độc lập <br>
+        _Không tái sử dụng cho file html khác được
+    </p>
+
+    <h2>Internal được định dạng ở head bằng thẻ style</h2>
+    <p>Ưu điểm</p>
+    <ul>
+        <li>Giúp người code có gốc nhìn trực quan</li>
+        <li>Dễ định dạng lại css cho nhiều phần tử mong muốn</li>
+    </ul>
+    <p>Nhược điểm là phải nhìn vào sự thay đổi ở nơi trên style làm cho việc nắm bắt sự thay đổi lâu hơn</p>
+
+    <h2 id="External">External</h2>
+    <p>Có ưu điểm như internal và có thể tái sử dụng file css cho các tệp html khác</p>
+    <p>Nhược điểm cũng như internal và phải tạo file riêng </p>
+
+
+
+</body>
+</html>

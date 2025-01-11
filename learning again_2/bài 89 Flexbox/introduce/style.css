@@ -1,0 +1,19 @@
+/* Đặt font-size cho tất cả các phần tử là 2rem */
+* {
+    font-size: 2rem;
+}
+
+/* Khi sử dụng thuộc tính flex thì thuộc tính display của các phần tử con sẽ được chuyển sang 
+quy tắc của thuộc tính flex */
+/* Hoặc có thể hiểu nó đưa các phần tử ra khỏi luồn thông thường và nó tuân theo quy tắc riêng */
+.container {
+    display: flex;
+    background-color: cyan;
+    /* Các phần tử con trong container cách nhau 60px */
+    gap: 60px;
+}
+
+.box {
+    background-color:violet;
+    margin: 20px 0px;
+}

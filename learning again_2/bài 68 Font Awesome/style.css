@@ -1,0 +1,26 @@
+html {
+    font-size: 62.5%;
+}
+li {
+    font-size: 3rem;
+    /* Sử dụng để loại bỏ dấu chấm */
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.fa-brands, .fa-solid {
+    color: aqua;
+    margin-right: 1rem;
+}
+
+/* thẻ i là thẻ con duy nhất của thẻ li không phải con của ul 
+nên chọn cách bên dưới sẽ không được áp dụng */
+.fa-brands:nth-child(2) {
+    color: red;
+}
+
+/* Ôn lại bài cũ */
+/* chọn thẻ i là thẻ con hoặc cháu của thẻ li, trong đó li là thẻ con thứ hai của thẻ ul  */
+ul li:nth-child(2) i {
+    color: blue;
+}

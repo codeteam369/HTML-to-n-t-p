@@ -1,0 +1,33 @@
+
+/* Khi ta chưa đặt z-index thì phần tử nào ở sau được viết sau cũng sẽ nằm ở trên */
+/* Lưu ý chỉ sử dụng được z-index nếu các phần tử có chung thuộc tính position  */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    /* Tác động vào tầng layer của phần tử */
+    /* Mặc định z-index bằng 0 */
+    /* Số càng cao thì càng được ưu tiên (nằm trên) */
+    z-index: 1;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    z-index: 2;
+}

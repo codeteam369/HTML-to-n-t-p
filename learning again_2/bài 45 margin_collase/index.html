@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="box box_1">tự học 1</div>
+        <div class="box box_2">tự học 2</div>
+        <h3>
+            Như ví dụ trên ta thấy margin collapse xảy ra khi hai phần tử 
+            liền kề cùng thiết lập margin với phần tử còn lại theo chiều dọc
+        </h3>
+        <hr>
+
+        <h2>Còn nếu thiết lập margin theo chiều ngang thì sẽ khôn bị margin collapse</h2>
+        <div class="item item_1">BOX 1</div>
+        <div class="item item_2">BOX 2</div>
+        <div class="item item_3">BOX 3</div>
+        <hr>
+
+        <h2>Khi ta đặt margin cho thẻ con thì cũng sẽ xảy ra hiện tượng collapse và kéo theo thẻ cha</h2>
+        <div class="box_parent">
+            <h2 class="box_child">BOX CHILD</h2>
+        </div>
+    </body>
+</html>

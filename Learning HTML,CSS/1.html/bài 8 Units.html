@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bài 8 Units</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../2.css/bài 8.css">
+        <style>
+            html {font-size: 30px}
+            .box {
+                width: 50%; 
+                /* 10% chiều ngang trình duyệt */
+                height: 100px;
+                /* 100px chiều dọc */
+                background-color: blueviolet;
+            }
+        </style>
+
+    <body>
+        <div class="box"></div>
+
+        <div>
+            <h1 style="color: blue">CSS units:</h1>
+            <h2>1. Absolute units</h2>
+            <!--
+            Absolute là giá trị tuyệt đối.
+            Nó sẽ không thay đổi kích thước bởi tác động bên ngoài 
+            -->
+            <ul>
+                <li>px</li>
+                <p style="font-size: 0.5rem;">
+                    Pixel là một đơn vị nhỏ nhất của một hình ảnh trên màn hình hoặc sensor ảnh.<br>
+                    Pixel là viết tắt của “picture element” (phần tử hình ảnh).<br>
+                    Mỗi pixel đại diện cho một điểm ảnh trên màn hình hoặc trong một hình ảnh số.
+                </p>
+                <li>pt</li>
+                <li>cm</li>
+                <li>mm</li>
+                <li>inch</li>
+                <li>pc</li>
+            </ul>
+            
+            <h2>2. Relative units</h2>
+            <!--
+            Relative là giá trị tương đối.
+            Nó sẽ cần phải dựa vào một giá trị cụ thể để thay đổi 
+            -->
+            <ul>
+                <li>%</li>
+                <!-- % là dựa vào thẻ chứa nó-->
+                <li>rem</li>
+                <!-- rem phụ thuộc vào thẻ html -->
+                <li>em</li>
+                <!-- em phụ thuộc vào thẻ gần nhất -->
+                <li>ww</li>
+                <!-- view width phụ thuộc chiều ngang của trìng duyệt-->
+                <li>vw</li>
+                <!-- view height phụ thuộc chiều dọc của trình duyệt -->
+                <li>vmin</li>
+            </ul>
+        </div>
+    </body>
+</html>

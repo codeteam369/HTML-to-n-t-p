@@ -1,0 +1,7 @@
+/* Chọn tất cả các thẻ có class là top trừ thẻ p */
+/* .top:not(p) {background-color: aqua;} */
+
+/* Và ta cũng có thẻ sử dụng lớp giả trong () */
+.top:not(:first-of-type) {background-color: aqua;}
+/* Cú pháp trên sẽ chọn tất cả thẻ có class là top 
+trừ các đầu tiên trong kiểu loại của mình trong phần tử cha chứa nó.(xem lại bài type selector)*/

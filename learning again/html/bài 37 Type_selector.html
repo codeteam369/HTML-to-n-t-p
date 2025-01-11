@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 37 selector type</title>
+    <style>
+        p:first-child {color: blue;}
+        div p:first-of-type {color: orange;}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Đây là thẻ h1</h1>
+        <p>Đây là thẻ p</p>
+        <p>Đây là thẻ p</p>
+        <p>Đây là thẻ p</p>
+    </div>
+    <h2>Sự khác biệt của :first-child và :first-of-type</h2>
+    <p>
+        Ta thấy khi lớp giả first-child sẽ không tác động lên thẻ p vì thẻ p không phải là thẻ con đầu tiên của div. <br>
+        Còn với first-of-type thì sẽ quan tâm đến loại thẻ vì vậy nó sẽ tác động lên thẻ p là thẻ con đầu tiên mà không tính các loại thẻ khác <br>
+        Tương tự như các type khác thì của chỉ khác biệt ở việc phân biệt loại thẻ 
+    </p>
+</body>
+</html>

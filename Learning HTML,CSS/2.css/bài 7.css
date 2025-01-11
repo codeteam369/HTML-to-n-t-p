@@ -1,0 +1,11 @@
+:root {--text-color: violet;}
+/* với roof thì ta có thể đặt biến và lấy biến đặt cho tất cả bên dưới */
+h1 {
+    --my-color: green;
+    color: var(--my-color)
+}
+
+h2 { color: var(--text-color);}
+/* nếu không có roof thì ta chỉ dùng được trong selector(thẻ được chọn) */
+/* nói ngắn gọn thì chỉ dùng được trong thẻ */
+h3 { color :var(--text-color);}

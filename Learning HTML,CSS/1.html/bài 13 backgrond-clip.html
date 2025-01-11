@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bài 12 Background-clip</title>
+        <style>
+            html, body {margin : 0;}
+            .header {
+                width: 100%;
+                height: 100px;
+                /* màu của background */
+                background-color: orange;
+                padding: 20px;
+                box-sizing: border-box;
+                border: 10px dashed #ccc;
+                /* Muốn background chỉ đổ màu cho padding mà bỏ qua border thì ta dùng: */
+                background-clip: padding-box;
+                /* tương tự với content thì ta dùng content-box */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">bài 12 background-clip</div>
+    </body>
+</html>

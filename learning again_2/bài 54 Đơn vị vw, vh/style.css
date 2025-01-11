@@ -1,0 +1,14 @@
+/* Hướng dẫn cách đọc lệnh cho dễ thuộc */
+.parent {
+    background-color: orange;
+    /* Đặt chiều cao của class parent là 80% viewport heigh - chiều cao của cửa sổ trình duyệt */
+    height: 80vh;
+    /* Đặt chiều dài là 80% viewport width - chiều dài của cửa sổ trình duyệt */
+    width: 80vw;
+}
+
+.child {
+    background-color: violet;
+    height: 50vh;
+    width: 50vw;
+}

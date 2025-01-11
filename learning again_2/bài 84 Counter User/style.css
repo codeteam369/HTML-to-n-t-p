@@ -1,0 +1,45 @@
+.box {
+    /* Đặt tên biến đếm là section */
+    /* Và khi gặp thẻ có class là box thì sẽ reset biến đếm */
+    counter-reset: section;
+    padding-left: 40px;
+}
+
+h2 {
+    /* Tăng biến đếm lên 1 đơn vị khi gặp thẻ h2*/
+    counter-increment: section;
+}
+
+/* Hiện biến đếm trước thẻ h2 */
+
+h2::before {
+    /* Muốn thêm nội dung gì thì sài content */
+    /* Muốn ghi thêm nội dung gì vào thì sử dụng dấu cách */
+    content: "Phần " counter(section) ": ";
+    color: red;
+}
+/* 
+Vậy ta có được công thức:
+_ Đầu tiên là đặt tên biến và nơi reset
+_Muốn đếm phần tử nào thì sử dụng lệnh conter-increment ở selection (bộ chọn đó)
+_Cuối cùng là tạo lớp ::before cho thẻ đếm và đặt content: counter(name)
+*/
+
+/* Áp dụng công thức bên trên */
+/* Đặt nơi reset bộ đếm */
+h2 {
+    counter-reset: section-child;
+}
+
+/* Phần tử đếm khi gặp thẻ: */
+h4 {
+    counter-increment: section-child;
+    padding-left: 30px;
+}
+
+/* Tạo lớp giả và gán biến cho phần counter của thuộc tính content */
+h4::before {
+    content: counter(section) "." counter(section-child) "/ ";
+    color: blue;
+}
+

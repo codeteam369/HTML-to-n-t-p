@@ -1,0 +1,10 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background: url(hinh_nen_phong_canh_\(13\).jpg) center/cover;
+    /* 50% của giá trị circle là lấy từ một giá trị lớn nhất của hai chiều rộng và cao của phần tử  */
+    clip-path: circle(50%);
+    /* inset là cắt phần tử theo 4 hướng và 4 đối số giống như padding */
+    /* Còn round sẽ bo góc của phần tử */
+    clip-path: inset(20px round 20px);
+}

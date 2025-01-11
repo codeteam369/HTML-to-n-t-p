@@ -1,0 +1,23 @@
+/* thuộc tính navbar */
+/* nav là viết tắt của navigation thanh điều hướng */
+.nav {
+    min-height: 42px;
+    background-color: orange;
+    /* dùng display flex để canh hàng ngang(mặc định) */
+    display: flex;
+    /* dùng justify-content: space-between để các phần tử cách nhau ở giữa */
+    justify-content: space-between;
+}
+
+.nav-list {
+    padding-left: 0;
+    margin: auto 16px;
+}
+
+.nav-item {
+    color: #fff;
+    /* list-style: none dùng để bỏ đi kí hiệu của các danh sách */
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}

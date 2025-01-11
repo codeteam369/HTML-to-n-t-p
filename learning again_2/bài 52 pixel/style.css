@@ -1,0 +1,16 @@
+.absolute {
+    /* Đặt kích thước cỡ chữ là 50px */
+    font-size: 50px;
+    /* Đặt chiều ngang của phần tử là 200px */
+    width: 200px;
+    background-color: blue;
+}
+
+.relative {
+    /* Đặt kích thước cỡ chữ dựa theo trình duyệt  */
+    font-size: 1rem;
+    /* Đặt chiều ngang của phần tử bằng 50% kích thước phần tử cha (ở trường hợp này là thẻ body */
+    width: 50%;
+    background-color: aqua;
+}
+

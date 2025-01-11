@@ -1,0 +1,7 @@
+/* tác động lên toàn bộ thẻ có thuộc tính là href */
+/* [href] {color: blueviolet;} */
+
+/* chỉ tác động đến target=_blank */
+[target="_blank"] {
+    color: orange;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {margin: 0;}
+            .box {
+                width: 100%;
+                height: 100vh;
+                background-image: url(../3.images/hình\ cánh\ cụt\ tft.jpg);
+                background-repeat: no-repeat;
+                background-size: 200px;
+
+                /* cách html đặt vị trí của trục tọa độ của hệ ở bên góc trên, bên trái.
+                Đó là nơi html tính khoản cách của trục x,y lần lượt là 50px và 20px.
+                Nếu ta đặt x,y là số âm thì hình sẽ đi ra ngoài.
+                
+                Và ta cũng có thể truyền vị trí tương đối vào như là : 
+                right(phải), left(trái), center(giữa),top(trên), bottom(dưới).
+                Nếu không viết, thì mặc định là center  */
+               
+                background-position: 50px 20px
+            ;}
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>

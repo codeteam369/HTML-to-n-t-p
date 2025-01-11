@@ -1,0 +1,32 @@
+strong {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box1 {
+    background-color: violet;
+}
+
+.box2 {
+    background-color: aqua;
+    position: relative;
+    /* Vị trí hiện tại cách so với vị trí gốc là bên trái 30px */
+    left: 30px;
+}
+
+.box3 {
+    background-color: orange;
+    /* Tương tự như trên khi muốn di chuyển phần tử sang vị trí khác so với vị trí gốc thì */
+    position: relative;
+    /* Vị trí hiện tại cách vị trí góc bên dưới 30px */
+    bottom: 30px;
+}

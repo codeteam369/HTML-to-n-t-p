@@ -1,0 +1,22 @@
+/* Đặt font-size cho toàn bộ trang wed là 10px */
+html {
+    font-size: 62.5%;
+}
+.noti {
+    margin: 5rem;
+    font-size: 10rem;
+    color: blue;
+    position: relative;
+}
+
+.mess-number {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 8rem;
+    top: -0.5rem;
+}

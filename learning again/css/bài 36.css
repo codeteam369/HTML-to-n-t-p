@@ -1,0 +1,9 @@
+/* Nếu p là phần tử con đầu tiên thì áp dụng thuộc tính sau */
+p:first-child {
+    color: blue;
+}
+
+/* Chọn thẻ li thứ 3 từ trên đến xuống là con của thẻ có class là child  */
+.child li:nth-child(3) {
+    color: orange;
+}

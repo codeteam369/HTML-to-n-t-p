@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Trong trình duyệt có hai kiểu hiển thị là inline và block</h2>
+        <h3>block - khối</h3>
+        <p>Phần tử có thuộc tính này sẽ chiếm toàn bộ chiều ngang của phần tử cha (ở đây là thẻ body)
+            nên ta thấy khi tạo ra thẻ mới thì sẽ xuống dòng. <br> 
+            Kiểm tra bằng cách bấm chuột phải và vào inspect, tìm kiếm con hình con trỏ chuột góc trái, di chuột vào phần tử
+        </p>
+        <h3>Ví dụ</h3>
+        <h2 class="ex">Duy</h2> <h2 class="ex">Nguyễn</h2>
+        <hr>
+
+        <h3>Inline - trong hàng</h3>
+        <p>Phần tử có thuộc tính inline chỉ chiếm kích thước bằng với content(nội dung)
+            vì vậy khi tạo ra thẻ mới thì sẽ ghi tiếp trong hàng
+        </p>
+        <h3>ví dụ</h3>
+        <h2>Tên <strong class="ex">Duy</strong> <strong class="ex"> Nguyễn</strong> không có chữ lót</h2>
+        <h2>Các thuộc tính không hoạt động trong inline</h2>
+        <ul>
+            <li>padding-top, padding-bottom có hiển thị nhưng sẽ đè lên các phần tử khác mà không xuống dòng</li>
+            <li>margin-top, margin-bottom</li>
+            <li>height, width, min-height, min-width</li>
+        </ul>
+        <p>qua trên ta thấy các thuộc tính thay đổi kích thước thường sẽ không được áp dụng vì nó sẽ phá vỡ quy tắc "trong dòng"</p>
+        <p>Cách khác phục thì dùng inline-block</p>
+    </body>
+</html>

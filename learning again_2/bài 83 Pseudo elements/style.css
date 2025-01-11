@@ -1,0 +1,33 @@
+/* Chọn thẻ p có class là frist-line */
+p.first-line::first-line {
+    color: blue;
+}
+
+.frist-letter::first-letter {
+    color: violet;
+    font-size: 40px;
+}
+
+::selection {
+    color: red;
+    background-color: black;
+}
+
+h4 {
+    margin-top: 60px;
+}
+
+li::marker {
+    color: green;
+    font-size: 40px;
+}
+
+.after::after {
+    /* Thuộc tính content buộc phải có */
+    content: "";
+    /* Mặc định afer và before là inline nên sẽ không tạo box được*/
+    display: inline-block;
+    background-color: orange;
+    width: 300px;
+    height: 5px;
+}

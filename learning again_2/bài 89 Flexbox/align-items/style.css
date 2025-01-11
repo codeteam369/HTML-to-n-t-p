@@ -1,0 +1,37 @@
+.contain {
+    display: flex;
+    justify-content: space-around;
+    /* Giá trị mặc định của align-items */
+    /* Thuộc tính stretch sẽ kéo dãn phần tử ra so với phần tử cao nhất trong box chứa nó */
+    align-items: stretch;
+    /* Phần tử sẽ có vị trí nằm dưới */
+    align-items: flex-start;
+    /* Phần tử sẽ có vị trí nằm trên*/
+    align-items: flex-end;
+    /* Nằm giữa */
+    align-items: center;
+    background-color: cyan;
+}
+
+.box {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.box1 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.box2 {
+    background-color: yellow;
+}
+
+.box3 {
+    background-color: orange;
+}
+
+.box4 {
+    background-color: blue;
+}

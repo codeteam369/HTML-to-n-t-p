@@ -1,0 +1,24 @@
+.border {
+    height: 500px;
+    width: 500px;
+    border: 20px dotted orange;
+    padding: 50px;
+    background-image: linear-gradient(blue,pink);
+    /*Mặc định thuộc tính background-clip là border-box */
+    /* Nếu như ta đổi thuộc tính thành padding-box thì background chỉ ảnh hưởng đến phần padding đổ vào */
+    background-clip: padding-box;
+    /* Tương tụ với phần content */
+    background-clip: content-box;
+}
+
+.text_highlight {
+    /* Đầu tiên là phải cho màu chữ trong suốt */
+    color: transparent;
+    /* Đặt màu cho background */
+    background-image: linear-gradient(to top right, red, blue 80%);
+    /* Chỉ định cùng ảnh hưởng */
+    background-clip: text;
+    font-size: 100px;
+    /* Nếu trinhg duyệt không hỗ trợ thì dùng: */
+    -webkit-background-clip: text;
+}

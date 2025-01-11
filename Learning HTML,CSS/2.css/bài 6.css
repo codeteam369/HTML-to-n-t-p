@@ -1,0 +1,8 @@
+h1 {color: blue;}
+/* External */
+
+* {color: green;}
+/* Universal selector */
+
+#lesson {color: bisque !important;}
+/* inherited */

@@ -1,0 +1,26 @@
+/* Khi kích thước của các phần tử lớn hơn chiều ngang của khối cha thì các phần tử sẽ 
+chiếm toàn bộ chiều ngang mà không xuống hàng */
+/* align-contain sử dụng để căn chỉnh các hàng ngang nên không có tác dụng khi không sử dụng wrap */
+.contain {
+    height: 600px;
+    display: flex;
+    /* Khi muốn xuống hàng thì tao sự dụng thuộc tính flex-wrap: wrap*/
+    flex-wrap: wrap;
+    background-color: cyan;
+    /* Thuộc tính mặc định của align-content là stretch cũng như justify-content
+    các phần tử sẽ bị kéo dãn ra làm chiếm hết box chứa nó */
+    align-content: stretch;
+    /* Các thuộc tính còn lại cũng như justify-content chỉ khác là justify-content chỉnh hàng dọc
+    còn align-content thì chỉnh hành ngang và cần flex-wrap: wrap */
+    align-content: start;
+    align-content: end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+}
+
+.box {
+    width: 30%;
+    border: 2px solid yellow;
+    background-color: orange;
+}

@@ -1,0 +1,37 @@
+/* ví dụ về before */
+.box::before {
+    /* content là thứ không thể thiếu của before */
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+p::before {
+    content: "trước: ";
+    color: red;
+}
+/* tương tự với before, after ở sau nội dung */
+
+/* Tóm lại hai phần tử giả before và after 
+dùng để chèn nội dung trước hoặc sau nội dung thực của một phần tử.
+Cả hai đề không thực sự là một phần tử của html và là được tạo ra bởi CSS*/
+
+/* ví dụ về first-letter */
+h5::first-letter {
+    font-size: 30px;
+    color: blue;
+}
+/* first đơn giản là điều chỉnh chữ cái đầu tiên */
+/* tương tự như first-letter thì first-line sẽ điều chỉnh hàng đầu */
+
+/* Và cuối cùng ta có selection */
+h3::selection {
+    /* color là màu của chữ */
+    color: yellow;
+    /* background-color là màu của vùng chọn */
+    background-color: violet;
+}
+
+/* nếu không chọn phần tử cho phần tử giả thì nó phần tử giả tác động lên toàn bộ wed */

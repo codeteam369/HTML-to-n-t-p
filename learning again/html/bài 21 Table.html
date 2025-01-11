@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 21 Table </title>
+</head>
+<body>
+    <h1>Khi chưa dùng rowspan và colspan</h1>
+    <!-- Để tạo bố cục bản ta dùng cú pháp table -->
+    <!-- Sử dụng type border để dễ nhìn -->
+    <table border="1">
+        <!-- Sau đó dùng cú pháp tr - table row: hàng của bản để tạo ra hàng -->
+        <tr>
+            <!-- Đặt tên đề cho bản ta dùng th - table head: tiêu đề của bản -->
+            <th>Tên sản phẩm</th>
+            <th>Mô tả</th>
+        </tr>
+        <!-- Tạo thêm hàng mới và sử dụng td - table data: dữ liệu của bản -->
+        <tr>
+            <td>Áo phông</td>
+            <td>Chất liệu</td>
+            <td>bạt</td>
+        </tr>
+        <tr>
+            <td>kích thước</td>
+            <td>ML, XL</td>
+        </tr>
+    </table>
+
+    <h1>Khi dùng rowspan và colspan</h1>
+    <!-- rowspan và colspan dùng để chỉ định phần tử chiếm bao nhiêu cột và dòng -->
+    <table border="1">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <!-- Ta cho tiêu đề mô tả chiếm 2 cột ta dùng colspan - column span: không gian chiếm cột-->
+            <th colspan="2">Mô tả</th>
+        </tr>
+        <tr>
+            <!-- như colspan rowspan dùng để chiếm hàng -->
+            <td rowspan="2">Áo phông</td>
+            <td>Chất liệu</td>
+            <td>bạt</td>
+        </tr>
+        <tr>
+            <td>kích thước</td>
+            <td>ML, XL</td>
+        </tr>
+    </table>
+</body>
+</html>

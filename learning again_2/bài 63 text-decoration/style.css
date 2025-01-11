@@ -1,0 +1,38 @@
+h2 {
+    color: blue;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Chuyên mục ôn lại bài cũ */
+/* Chọn thẻ li là thẻ con của thẻ con đứng thứ 2 có thẻ cha mang class là decoration */
+.decoration li:nth-child(2) {
+    text-decoration: underline;
+}
+
+.decoration li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+.decoration li:nth-child(4) {
+    text-decoration: overline;
+}
+
+.indent {
+    text-indent: 40px;
+}
+
+/* phần transform */
+.transform li:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.transform li:nth-child(2) {
+    text-transform: lowercase;
+}
+
+.transform li:nth-child(3) {
+    text-transform: uppercase;
+}

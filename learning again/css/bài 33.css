@@ -1,0 +1,16 @@
+/* thuộc tính hover sẽ khởi chạy khi người dùng di chuột vào */
+h2#di_chot:hover {
+    color: blueviolet;
+}
+
+/* thuộc tính active sẽ khởi chạy khi ta nhấn hoặc giữ chuột vào nó */
+h2#bam_chuot:active {
+    color: blue;
+}
+/* Hiện tượng margin gộp:
+_Nếu hai tiêu đề có cùng cấp liền kề nhau thì css sẽ chỉ lấy 1 margin của thẻ lớn nhất
+_Vì vậy khi chỉnh sửa margin của các thẻ tiêu đề cùng cấp liền kề thì ta phải chỉnh cả hai thuộc tính margin của hai thẻ */
+
+/* Nếu bạn không đặt line-height, 
+_trình duyệt thường dùng giá trị mặc định là khoảng 1.2 (tức là 120% của kích thước phông chữ). 
+_Ví dụ, nếu kích thước chữ là 16px, thì line-height sẽ là khoảng 19.2px. */

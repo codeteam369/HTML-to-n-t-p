@@ -1,0 +1,9 @@
+/* chỉ định thẻ a là phần tử đầu tiên nằm ở phía sau thẻ h3 */
+h3 + a{
+    /* text-decoration là trang trí chữ; ghi đè thuộc tính none vào underline sẽ bỏ phần gạch chân */
+    text-decoration: none;
+    /* ghi đề lại màu đen */
+    color: black;
+    /* Bỏ hiện icon bàn tay khi di chuột vào */
+    cursor: default;
+}

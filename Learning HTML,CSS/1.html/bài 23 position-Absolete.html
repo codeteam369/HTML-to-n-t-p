@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> bài 23 Position: Absolute</title>
+        <style>
+            .box {
+                width: 100%;
+                height: 100px;
+                background-color: blue;
+                position: relative;
+            }
+
+            /* thuộc tính position absolute 
+            sẽ tìm kiếm thẻ cha nào có thuộc tính position
+            làm gốc tọa độ */
+            .box-child1 {
+                width: 50px;
+                height: 50px;
+                background-color: pink;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+
+            /* ta ví dụ về một cách làm khác của absolute
+            như khi ta bấm vào thanh 3 sọc trên youtube
+            nó sẽ có lớp đen phủ ngoài nội dung hiện lên
+            để làm việc đó ta dùng rgba() và bỏ đi định nghĩa độ dài */
+
+            /*                         
+            .box-child2 {
+                background-color: rgba(255, 0, 255, 0.5);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+            }
+            */
+        </style>
+    </head>
+
+    <body>
+        <div class="box">         
+            <div class="box-child1"></div>
+            <div class="box-child2"></div>
+        </div>
+    </body>
+</html>

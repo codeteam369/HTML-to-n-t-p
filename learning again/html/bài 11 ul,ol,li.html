@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bài 11</title>
+    </head>
+
+    <body>
+        <!-- 
+        ul - unordered list: danh sách không có thứ tự
+        ol - ordered list: danh sách có thứ tự
+        li - list item: là thẻ con trực tiếp của ul, ol
+        -->
+        <h2>ví dụ về ul</h2>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        
+        <h2>ví dụ về ol</h2>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+        <h3>.Thuộc tính reversed thẻ ol</h3>
+        <ol reversed>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+        <!-- 
+        Thuộc tính của ol được viết trong type="" trong đó:
+        _A,a là theo thứ tự alpha beta
+        _I,i là theo thứ tự số la mã
+        -->
+
+
+        <h2>ví dụ về hím tắt Emmet</h2>
+        <!-- 
+        Ta có cấu trúc: ol>li*3{item$} như sau:
+            _ol là phần tử cha
+            _li là phần tử con
+            _*3 là số lượng phần tử con 
+            _{item} là nội dung bên trong phần tử con
+            _$ là dãy số chạy từ 0 đến số lượng của thẻ con
+            => Công thức: thẻ_cha>thẻ_con*N{nội_dung_của_thẻ_con$}
+        -->
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+
+        <h2>Thực hành</h2>
+        <ol type="I">
+            <li>Mở bài: giới thiệu nhân vật trong truyện cổ tích</li>
+            <li>Thân bài: tả nhân vật trong truyện cổ tích
+                <ol>
+                    <li>Tả bao quát nhân vật trong truyện cổ tích</li>
+                    <li>Tả chi tiết nhân vật trong chuyện cổ tích
+                        <ol type="a">
+                            <li>Tả ngoại hình của nhân vật</li>
+                            <li>Tả tính tình của nhân vật</li>
+                            <li>Tả hoạt động của nhân vật</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>Kết bài: nêu cảm nghĩ cảu em về nhân vật trong chuyện cổ tích</li>
+        </ol>
+    </body>
+</html>

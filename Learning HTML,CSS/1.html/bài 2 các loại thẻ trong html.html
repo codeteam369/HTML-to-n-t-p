@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- 
+    1. thẻ từ h1 đến h6 viết tắt của heading(tiêu đề) được dùng để quản lí kích thước của chữ
+    2. thẻ p là viết tắt của từ paragraph(đoạn văn)
+    3. thẻ img image(hình ảnh) dùng để hiển thị hình ảnh
+    4. thẻ a anchor(mỏ neo?) có thể hiểu là neo các liên kết lại(gán link vào chữ)
+    5. ul, li(unordered list, list)
+    6. table(bản)
+    7. input(dữ liệu nhập vào)
+    8. button(tạo nút bấm)
+    9. div(tạo một không gian)
+    -->
+<html>
+    <head>
+        <title>bài 2 các loại thẻ trong html</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>Đây là tiêu đề h1</h1>
+        <p>đây là nội dung p</p>
+        <div>
+            <img src="../3.images/hình cánh cụt tft.jpg" width="100px" alt="ảnh bị lỗi">
+        </div>
+        
+        <a href="https://www.youtube.com/">tới youtube</a>
+        <!-- tạo ra các dấu chấm đầu dòng -->
+        <ul>
+            <li>dòng 1</li>
+            <li>dòng 2</li>
+            <li>dòng 3</li>
+            <li>dòng 4</li>
+        </ul>
+
+        <!-- tạo ra bảng kẻ khung -->
+        <!-- table cũng có phần đầu và thân(thead, tbody) -->
+        <table>
+            <thead>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Địa chỉ</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0971119700</td>
+                    <td>Nguyễn Duy</td>
+                    <td>Hòa Thành</td>
+                </tr>
+
+                <tr>
+                    <td>11111111</td>
+                    <td>Tèo</td>
+                    <td>Long Hoa</td>
+                </tr>
+
+                <tr>
+                    <td>2222222222</td>
+                    <td>Tí</td>
+                    <td>Long Trung</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- nhập chữ -->
+        <input type="text"> 
+        <!-- ấn tích hình vuông -->
+        <div><input type="checkbox"> </div>
+        <!-- ấn tích hình tròn(lưu ý à chọn xong sẽ không hủy chọn được) và khi đặt biến trùng tên thì nó chỉ cho ta chọn 1 cái-->
+        <div>
+            <input name = "gender" type="radio">
+            <input name = "gender" type="radio">
+        </div>
+        <!-- tạo ra nút bấm -->
+        <div><button>Cái nút</button></div>
+    </body>
+</html>

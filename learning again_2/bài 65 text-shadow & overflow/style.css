@@ -1,0 +1,10 @@
+.shadow {
+    text-shadow: 5px -3px 3px black;
+}
+
+ul + p {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow: auto;
+}

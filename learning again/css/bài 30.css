@@ -1,0 +1,14 @@
+/* Tác động vào toàn bộ thẻ p là con hoặc cháu của thẻ div */
+/* div p {
+    color: pink;
+} */
+
+.title h4 {
+    font-style: italic;
+    color: blue;
+}
+
+/* Tác động những thẻ p là con của thẻ div */
+div > p {color: blueviolet;}
+
+/* thẻ con là những thẻ tab vào 1 lần so với thẻ cha, còn hai lần trở lên là cháu(hoặc con gián tiếp) */

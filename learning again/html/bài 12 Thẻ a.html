@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bài 12 Thẻ a trong html</title>
+        <style>
+            h1 {color: red;}
+            h2 {color: blue;}
+        </style>
+    </head>
+    <body>
+        <h1>TÌM HIỂU VỀ THẺ A</h1>
+        <h2>Các kiểu đường dẫn của thẻ a</h2>
+        <!-- Thẻ a là viết tắt của từ anchor: gắn liên kết  -->
+        <h3>Đi đến dường dẫn</h3>
+        <a href="https://www.youtube.com/">Đi đến trang chủ youtube</a>
+
+        <!-- Các trường hợp đặt biệt: nếu trong href để trống thì khi click vào thì sẽ tải lại trang -->
+        <h3>Cách tải lại trang</h3>
+        <a href="">Load lại trang</a>
+
+        <!-- Dùng # trong href để trở lên đầu trang -->
+        <h3>Cách trở lên đầu trang</h3>
+        <a href="#">Trở lên đầu trang</a>
+
+        <h2>Thuộc tính target trong thẻ a</h2>
+        <!-- 
+        Mặc định khi không gọi thẻ target thì sẽ là target="_self".
+        _Thuộc tính -self sẽ đi đến đường dẫn bằng chính tag đó
+        _Thuộc tính _blank sẽ đi đến đường dẫn bằng tag mới
+        -->
+        <h3>Thuộc tính target = "_blank"</h3>
+        <a href="https://www.youtube.com/" target="_blank">Đi đến youtube bằng thẻ khác</a>
+
+        <h3>Thuộc tính tel:</h3>
+        <!-- thuộc tính tel: sẽ điều hướng trình duyệt vào ứng dụng liên lạc bằng số điện thoại -->
+        <a href="tel:0971119700">Gọi số của bản thân</a>
+
+        <h3>Thuộc tính malto</h3>
+        <!-- Thuộc tính malto dùng để gửi mail -->
+        <a href="mailto:nguyenduy14012007@gmail.com">Gửi mail cho mình</a>
+    </body>
+</html>

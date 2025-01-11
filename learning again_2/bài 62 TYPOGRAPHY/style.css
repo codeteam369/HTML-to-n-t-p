@@ -1,0 +1,23 @@
+/* Nhắc lại một chút về bài cũ */
+/* Chọn thẻ p có class là letter và nằm liền kề phía sau đầu tiên cảu thẻ p khác thẻ p khác */
+p + p.letter {
+    letter-spacing: 10px;
+}
+
+p + p.word {
+    word-spacing: 20px;
+}
+
+.align {
+    text-align: center;
+}
+/* Thuộc tính justify sẽ làm văn bản không có khoảng trống dư khi xuống dòng (Căn dàn đều hai bên) */
+
+.align-inline {
+    text-align: center;
+}
+
+.align-block {
+    text-align: center;
+}
+

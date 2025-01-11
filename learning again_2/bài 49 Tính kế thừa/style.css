@@ -1,0 +1,14 @@
+body {
+    font-style: italic;
+    color: blue;
+    font-size: 30px;
+}
+
+footer ~ p {color: green;}
+
+li {color: black;}
+
+/* Mặc dù ta đã đặt font-size cho toàn bộ trang html nhưng
+thẻ h1 vẫn không áp dụng vì thuộc tính mặc định là 2em.
+Tức là kích thước của nó sẽ gấp hai lần phần tử góc mà phần tử góc ta đã đặt là 30px 
+nên kích thước của thẻ h1 sẽ là 60px */

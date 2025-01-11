@@ -1,0 +1,24 @@
+.box {
+    width: 500px;
+    height: 300px;
+}
+
+.box1 {
+    background-image: linear-gradient( to bottom, pink, blue);
+}
+
+.box2 {
+    background-image: linear-gradient(to top, pink, blue);
+}
+
+.box3 {
+    background-image: linear-gradient(to top right, pink, blue)
+}
+
+.box4 {
+    background-image: linear-gradient(to top left, pink, blue);
+}
+
+.box_percent {
+    background-image: linear-gradient( to right, blue 40%, violet);
+}

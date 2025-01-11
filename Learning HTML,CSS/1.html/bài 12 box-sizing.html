@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {margin: 0;}
+            .box {
+                width: 100px;
+                height: 100px;
+                color: #fff;
+                background-color: blue;
+                padding: 16px;
+                border: 2px solid #333;
+                /*padding và border đã làm thay đổi kích thước của phần tử box lên 136px*136px
+                 muốn giữ nguyên kích thước của phần tử box bằng 100px*100px.
+                Thì ta sử dụng box-sizing: border-box */
+                box-sizing: border-box
+                /* box-sizing nó sẽ tự hiểu là tổng kích thước của phần tử(element) cộng với padding và border
+                bằng với phần tử ta đã cho sẵn(100px*100px) */
+            }
+            /* còn một từ khóa unset là unsetup tức là hủy đi cái box-sizing vừa tạo */
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            đây là nội dung bài viết
+        </div>       
+    </body>
+</html>

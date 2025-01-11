@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bài 11 Margin</title>
+        <style>
+            .box{
+                width: 80px;
+                height: 80px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /*cú pháp di chuyển các phần tử lên cùng một hàng  */
+                float: left
+                /* và khi hàng không chứa đủ kích thước của các phần tử trong hàng 
+                thì cách phần sẽ xuống hàng */
+            }
+            .box1 {background-color: blue;}
+            .box2 {background-color: red;}
+            .box3 {
+                background-color: green;
+                /* muốn tạo khoảng cách 30px với bên trái ta dùng: */
+                margin-left: 30px;
+                /* tương tự bên phải là right, trên là top, dưới là bottom */
+                /* các cách viết tắt thì coi lại bài padding với border(y như nhau) */
+            }
+            /* margin có thể hiểu là khoảng cách giữa các phần tử.
+            Margin không được tính là kích thước của phần tử như padding và border */
+</style>
+    </head>
+
+    <body>
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    </body>
+</html>

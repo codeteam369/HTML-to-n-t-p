@@ -1,0 +1,16 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    /* Khi ta đưa ảnh từ bên ngoài vào thì ảnh sẽ giữ nguyên kích thước */
+    background-image: url(hình\ cánh\ cụt\ tft.jpg);
+    /* Thuộc tính contain sẽ giữ nguyên tỉ lệ khung hình và nếu có phần thừa thì ảnh sẽ tự lặp lại */
+    background-size: contain;
+    /* Thuộc tính cover cũng sẽ giữ nguyên tỉ lệ ảnh nhưng ảnh sẽ bị mất một phía có tỉ lệ sai số lớn nhất 
+    theo hai trục x, y */
+
+    /*Ví dụ: hình chim cách cụt trên có x: 800; y:879 so với box x:500; y:500 
+    thì trục tỉ lệ trục x của cả hai box và hình gần hơn khi so với trục y nên lấy toàn bộ 
+    chiều dài và bỏ bớt chiều cao */
+    background-size: cover;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Thuộc tính letter-spacing</h2>
+    <p>Đây là thuộc tính làm thay đổi khoản cách giữa các kí <u>kí tự</u></p>
+    <p class="letter">Dòng bị tác động bởi letter-spacing</p>
+    
+    <h2>Thuộc tính word-spacing</h2>
+    <p>Đây là thuộc tính làm thay đổi khoản cách giữa các <u>từ</u></p>
+    <p class="word">Dòng bị tác động bởi word-spacing</p>
+
+    <h2>Thuộc tính text-align</h2>
+    <p>Text-align là thuộc tính căn văn bản(text)</p>
+    <p>Có 4 các căn văn bản:</p>
+    <ul>
+        <li>text-align: right</li>
+        <li>text-align: left</li>
+        <li>text-align: center</li>
+        <li>text-align: justify</li>
+    </ul>
+    <p class="align">Đây là dòng bị căn bởi thuộc tính text-align</p>
+    <hr>
+    <h3>Lưu ý cực kì quan trọng là text-align chỉ căn văn bản so với box chữa nó</h3>
+    <p>ví dụ</p>
+    <a class="align-inline" href="">Đây là kiểu thẻ inline</a>
+    <p class="align-block">Đây là kiểu thẻ block</p>
+
+    <h3>Từ đó ta trút ra được</h3>
+    <ul>
+        <li>Khi dùng với inline thì chuyển display sang block hoặc inline block</li>
+        <li>Tác động vào box cha ví dụ như thẻ body thì sẽ căn chữ toàn bộ văn bản vì nó là box lớn nhất</li>
+    </ul>
+</body>
+</html>

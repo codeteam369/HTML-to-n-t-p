@@ -1,0 +1,49 @@
+.column-layout {
+    /* tạo ra khoảng cách 36px với khung wed */
+    margin-top: 36px;
+    /* độ dày viền bên trên với dưới là 12px */
+    padding: 12px 0;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 720px) {
+    .column-layout {
+        flex-direction: row;
+    }
+}
+
+
+/* column là cột */
+.column-item {
+    /* độ dài bên trái, phải của cột là 16px */
+    padding: 0 16px;
+}
+
+/* sidebar là thanh bên */
+.sidebar-one {
+    /* flex là trọng số trong flexbox */
+    flex: 1;
+}
+
+.sidebar-two {
+    flex: 1;
+}
+
+/* nội dung chính */
+.main-column {
+    flex: 3
+}
+
+/*
+    TRỌNG SỐ là gì?
+Trọng số là số là số phần trăm không cố định trong flex container
+=>Công thức tính phần trăm các trọng số chiếm flexbox là 
+    [a + b + c +...=100%]
+Ví dụ có hai phần tử: A và B:
+    _A {flex: 1}
+    _B {flex: 3}
+    thì a chiếm 25% còn b chiếm 75%
+    ở bài trên thì sidebar-one(20%), siderbar-two(20%), main-column(60%)
+*/

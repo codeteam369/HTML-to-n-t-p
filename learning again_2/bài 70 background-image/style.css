@@ -1,0 +1,9 @@
+.box {
+    height: 100vh;
+    /* lưu ý thuộc tính url không nhận các file ngoài folder gốc(roof) hoặc folder được mở */
+    /* ta cũng có thể đè ảnh png lên ảnh trước nó bằng cách xếp trước ảnh nền */
+    background-image:url(img/click.png), url(img/download.jpg);
+    /* Mặc định background-image sẽ lặp lại bức ảnh theo trục x, y cho đến khi chiếm toàn bộ box 
+    chứa nó */
+    background-repeat: repeat;
+}

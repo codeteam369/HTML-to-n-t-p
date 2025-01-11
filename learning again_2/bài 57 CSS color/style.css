@@ -1,0 +1,26 @@
+h2.rgb {
+    color: rgb(0, 255, 255);
+}
+
+h2.rgba {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(0, 255, 0);
+}
+
+h2.hex {
+    color: #ff00ff;
+}
+
+h2.color_name {
+    color: blue;
+}
+
+.currentColor {
+    width: 200px;
+    height: 200px;
+    /* khi đổi màu color thì cả phần background và phần outline cũng sẽ đổi theo */
+    color: orange;
+    background-color: currentColor;
+    outline:5px currentColor solid;
+    outline-offset: 5px;
+}

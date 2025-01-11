@@ -1,0 +1,38 @@
+.contain {
+    background-color: cyan;
+    display: flex;
+    /* Giá trị mặc định của thuộc tính justify-content là start */
+    justify-content: start;
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+}
+
+.box {
+    margin: 20px 0px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: orange;
+}
+
+.box4 {
+    background-color: pink;
+}

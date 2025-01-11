@@ -1,0 +1,17 @@
+/* ví dụ về :root */
+:root {--root-color: red;}
+
+/* ví dụ về hover */
+#hover-animation:hover {
+    color: blue;
+}
+
+/* ví dụ về active */
+#active-animation:active {
+    color: pink;
+}
+
+/* ví dụ về last-child */
+li:last-child {
+    color: aqua;
+}

@@ -1,0 +1,21 @@
+/* Tạo ra 3 khối hộp */
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    border: 0.5rem red solid;
+    margin-right: 2rem;
+}
+
+.box_parent {
+    display: flex;
+}
+
+/* Thay đổi cỡ chữ gốc của trình duyệt */
+/* Lưu ý là không được để giá trị tuyệt đối vì khi làm thế thì trình duyệt mặc định 
+là không được thay đổi nên người dùng sẽ không thể chỉnh sửa */
+html {
+    font-size: 125%;
+}
+/* Ta thấy toàn bộ thẻ sử dụng phần tử mặc định và đơn vị rem sẽ thay đổi */
+/* chỉ có các phần tử sử dụng đơn vị tuyệt đối thì sẽ không bị tác động */

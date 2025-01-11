@@ -1,0 +1,8 @@
+/* các chọn nhiều kiểu thẻ */
+/* h1, h2 {color: blueviolet;} */
+
+/* chọn kết hợp class, id, kiểu thẻ */
+/* #title,.demo,p {color: skyblue;} */
+
+/* chọn class phải có cả hai tên demo và demo_2 */
+.demo.demo_2 {color: orange;}

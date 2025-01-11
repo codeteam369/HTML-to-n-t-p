@@ -1,0 +1,39 @@
+/* Tạo kiểu cho thanh menu */
+.mess-bottom {
+    font-size: 50px;
+    /* Đặt position là fixed */
+    position: fixed;
+    /* Cú pháp viết tắt theo 4 đối số trên, phải, dưới, trái */
+    inset: auto 0px 0px auto;
+}
+
+/* Đặt màu khác cho icon */
+.fa-facebook-messenger {
+    color: #0082ff;
+}
+
+/* Chỉnh sửa thanh điều hướng */
+.nav {
+    background-color: rgb(182, 182, 182);
+    position: fixed;
+    /* Đây là cú pháp viết tắt vị trị trí giống như padding, border, margin */
+    /* Cách bên trên là 0px, hai bên trái phải là 0px, ở dưới là auto */
+    inset: 0 0 auto;
+    /* Đặt cố định chiều cao của nav */
+    height: 100px;
+}
+
+li {
+    display: inline-block;
+    background-color: #0082ff;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border: 2px solid orange;
+}
+
+.nav a{
+    /* Bỏ đi phần trang trí text mặc định của thẻ a */
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}

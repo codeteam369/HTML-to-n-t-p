@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* định dạng một khối vuông  */
+            .box {
+                width: 100px;
+                height: 100px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            /* định dạng background màu */
+            .box1 {background-color: blue;}
+            .box2 {
+                    background-color: red;
+                    /* ta cũng có thể ghi tắt như sau:
+                    padding: 10px 20px (thì html sẽ hiểu là bên trên với dưới là 10px, trái phải là 20px)
+                    padding: 10px 20px 30px (thì html sẽ hiểu là bên trên là 10px, hai bên trái phải là 20px, phía dưới là 30px)
+                    padding: 10px 20px 30px 40px (thì html sẽ hiểu theo chiều kim đồng hồ bắt đầu với bên trên là 10px) */
+                }
+            .box3 {
+                    background-color: green;
+                    /* padding là đệm thêm vào, có nghĩa là nó làm cho background dày thêm */
+                    padding-top: 30px;
+                    /* thêm 30px cho phần trên(top) của padding */
+                    /* tương tự phần dưới là bottom, trái là left, phải là right */
+                    padding: 50px;
+                    /* còn ghi padding tăng kích thước lên mọi hướng */
+                }
+        </style>
+    </head>
+
+    <body>
+        <!-- ta gọi class box(định dạng khối vuông) với box 1(định dạng background màu) và đặt tên -->
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        
+    </body>
+</html>

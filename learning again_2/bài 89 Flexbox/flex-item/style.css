@@ -1,0 +1,25 @@
+.contain {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    background-color: cyan;
+    /* align-items sẽ tác động lên tất cả các phần tử là thẻ con của contain */
+    /* Thuộc tính mặc định của align-items */
+    align-items: stretch;
+}
+
+.box {
+    background-color: yellow;
+    border: 2px solid orange;
+    flex-grow: 1;
+}
+
+.box1, .box3 {
+    /* slign-self như cái tên chỉ áp dụng cho bản thân*/
+    align-self: self-start;
+}
+
+.box3 {
+    /* Cách tính thì lấy trọng số của phần tử chia cho tổng trọng số của các phần tử trong khối sẽ được tỉ lệ kích thước */
+    flex-grow: 3;
+}

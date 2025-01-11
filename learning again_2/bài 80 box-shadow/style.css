@@ -1,0 +1,15 @@
+.box {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    box-shadow: 20px 20px 10px 10px;
+    /* Có 4 đối số trong box-shadow: x, y (trục y trong html ngược với toán học), blur radius (Bán kính mờ), speard radius (bán kính lan truyền) */
+}
+
+.logo {
+    background-color: blue;
+    width: 250px;
+    height: 200px;
+    box-shadow: 255px 0px blue, 0px 205px blue, 255px 205px blue;
+}

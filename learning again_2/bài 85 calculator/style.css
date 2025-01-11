@@ -1,0 +1,13 @@
+.nav {
+    background-color: blue;
+    /* Trình duyệt sẽ tự tính toán lấy 100% chiều dài của box cha trừ cho 100px */
+    width: calc(100% - 100px);
+    height: 100px;
+    margin: auto;
+}
+
+.main_content {
+    background-color: violet;
+    /* Lấy 100% chiều cao của trình duyệt - 100px(kích thước của thẻ nav) */
+    height: calc(100vh - 100px);
+}

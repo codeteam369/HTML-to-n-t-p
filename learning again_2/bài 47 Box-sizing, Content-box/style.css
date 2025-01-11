@@ -1,0 +1,10 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px blue solid;
+    margin-top: 30px;
+}
+
+.box1 {box-sizing: content-box;}
+.box2 {box-sizing: border-box;}
+.note {color: red;}

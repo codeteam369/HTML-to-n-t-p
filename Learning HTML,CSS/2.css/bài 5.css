@@ -1,0 +1,9 @@
+/* để gọi ID ta dùng #id */
+#color_letters{
+    color: blue
+}
+
+/* để gọi class ta dùng dấu .class */
+.group{
+    color: palevioletred
+}

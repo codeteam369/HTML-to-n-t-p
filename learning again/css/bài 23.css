@@ -1,0 +1,28 @@
+#text-color {
+    /* màu chữ */
+    color: red;
+}
+
+#font-style {
+    /* kiểu chữ. Nói đến các kiểu in nghiên, in đậm, ... của chữ */
+    font-style: italic;
+}
+
+#font-letter {
+    /* lưu ý phông chữ là nói đến kiểu chữ được sáng tạo ra bởi một người và có tên riêng */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#transfrom {
+    /* viết hoa toàn bộ */
+    text-transform: uppercase;
+}
+
+#location-text {
+    /* di chuyển chữ */
+    text-align: center;
+}
+
+#size {
+    font-size: 10px;
+}
